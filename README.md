@@ -31,18 +31,17 @@ This project will cover:
 *   **Notebooks:** Jupyter
 
 ## Project Structure
-*(Placeholder - to be defined as the project evolves)*
 ```
 .
 ├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── scripts/
+│   ├── raw/      # Raw data storage
+│   └── processed/  # Processed data storage
+├── models/         # Trained models
+├── notebooks/      # Jupyter notebooks for exploration and experimentation
+├── scripts/        # Scripts for data processing, training, evaluation, etc.
 │   ├── preprocess.py
 │   ├── train.py
 │   └── evaluate.py
-├── models/
 └── README.md
 ```
 
